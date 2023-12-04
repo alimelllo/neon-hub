@@ -14,7 +14,7 @@ const Header = () => {
 
                 <div className='w-4/12 flex'>
                     <div className='flex items-center w-5/12 md:w-full'>
-                        <Image alt={'Neon Hub'} objectFit='contain' src={logo} />
+                        <Image alt={'Neon Hub'} src={logo} />
                     </div>
                 </div>
 
