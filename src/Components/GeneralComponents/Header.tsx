@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
 
 
-                <div className='w-4/12  text-[#9c9c9c] font-[Vazir] text-[1.25rem] flex md:hidden flex-row items-center justify-center '>
+                <div className='w-4/12  text-[#9c9c9c] font-[Vazir] text-[1.25rem] flex flex-row items-center justify-center '>
                     <button className={styles.navigateButtons}>دسته</button>
                     <button className={styles.navigateButtons}>محصولات</button>
                     <button className={styles.navigateButtons}>درباره ما</button>
@@ -36,4 +36,5 @@ const Header = () => {
         </header>
     )
 }
+
 export default Header;
