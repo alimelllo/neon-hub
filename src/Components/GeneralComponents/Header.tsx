@@ -5,12 +5,12 @@ import logo from '../../../public/images/NeonHubLogo.webp';
 const Header = () => {
 
     const styles = {
-        navigateButtons : 'h-[70%] mx-2 w-3/12 hover:text-[#ffffff] transition-all duration-200'
+        navigateButtons : 'h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'
     }
 
     return (
-        <header className='w-full h-[5rem] z-30 bg-[black] flex items-center'>
-            <div className='w-full h-[70%] flex flex-row justify-between'>
+        <header className='w-full h-[5rem] z-30 bg-[black] flex flex-row items-center'>
+            <div className='w-full  h-[80%] flex flex-row justify-between'>
 
                 <div className='w-4/12 flex'>
                     <div className='flex items-center w-5/12 md:w-full'>
@@ -19,7 +19,7 @@ const Header = () => {
                 </div>
 
 
-                <div className='w-4/12  text-[#9c9c9c] font-[Vazir] text-[1.25rem] flex flex-row items-center justify-center '>
+                <div className='w-4/12  text-[#9c9c9c] font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
                     <button className={styles.navigateButtons}>دسته</button>
                     <button className={styles.navigateButtons}>محصولات</button>
                     <button className={styles.navigateButtons}>درباره ما</button>
