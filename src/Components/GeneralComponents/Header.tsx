@@ -18,9 +18,9 @@ const Header = () => {
 
 
                 <div className='w-4/12 font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
-                    <button className='text-[white] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>دسته</button>
-                    <button className='text-[white] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
-                    <button className='text-[white] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
+                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>دسته</button>
+                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
+                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
                 </div>
 
 
