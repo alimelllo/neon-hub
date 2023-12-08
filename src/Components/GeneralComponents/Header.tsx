@@ -7,7 +7,7 @@ const Header = () => {
    
 
     return (
-        <header className='w-full h-[5rem] z-30 bg-[black] flex flex-row items-center'>
+        <header className='w-full h-[5rem] md:py-2 z-30 bg-[black] flex flex-row items-center'>
             <div className='w-full  h-[80%] flex flex-row justify-between'>
 
                 <div className='w-4/12 flex'>

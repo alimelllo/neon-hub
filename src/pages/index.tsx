@@ -2,14 +2,20 @@ import Header from '@/Components/GeneralComponents/Header'
 import Image from 'next/image'
 import wall from '../../public/images/wall.webp';
 import SlideShow from '@/Components/GeneralComponents/SlideShow';
+import { useTheme } from 'next-themes';
+import { use, useEffect } from 'react';
 
 
 export default function Home() {
 
+  const { theme, setTheme } = useTheme();
 
+  useEffect(() => {
+    setTheme("Dark")
+  }, [])
 
   return (
-    <div className='overflow-x-hidden flex flex-col h-screen bg-[#000000]'>
+    <div className='overflow-x-hidden flex flex-col h-screen dark:bg-[#000000]'>
       <Header />
       <main className={`flex flex-col justify-center h-screen`}>
 
@@ -21,7 +27,7 @@ export default function Home() {
 
           <div className='w-6/12 md:w-full md:h-[55%] md:mx-auto relative contrast-[1.1]'>
             <Image layout={'responsive'} alt={'Neon Hub'} src={wall} />
-            <div className="neon-text text-[5rem] md:text-[2.5rem] mt-[5rem] md:mt-0 md:mb-[5rem] font-[Vibur]">
+            <div className="neon-text text-[5rem] md:text-[2.5rem] mt-[5rem] md:mt-0 md:mb-[10rem] font-[Vibur]">
               <b>N<span>EON</span> H<span>U</span>B</b>
               <div className='w-full mt-10 md:mt-2 flex justify-center'>
                 <p className='text-[#ebebeb] font-[Vazir] text-center w-5/12 md:w-full text-[1.7rem] md:text-[1rem] flex flex-wrap md:justify-center'>
@@ -39,7 +45,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='w-6/12 md:w-full flex justify-center pt-[3rem] items-center h-[100%] md:h-[45%]'>
+          <div className='w-6/12 md:w-full flex justify-center pt-[3rem] md:pt-[15rem] items-center h-[100%] md:h-[45%]'>
             <SlideShow data={[]} />
           </div>
         </div>
