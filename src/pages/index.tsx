@@ -2,20 +2,12 @@ import Header from '@/Components/GeneralComponents/Header'
 import Image from 'next/image'
 import wall from '../../public/images/wall.webp';
 import SlideShow from '@/Components/GeneralComponents/SlideShow';
-import { useTheme } from 'next-themes';
-import { use, useEffect } from 'react';
 
 
 export default function Home() {
 
-  const { theme, setTheme } = useTheme();
-
-  useEffect(() => {
-    setTheme("Dark")
-  }, [])
-
   return (
-    <div className='overflow-x-hidden flex flex-col h-screen dark:bg-[#000000]'>
+    <div className='overflow-x-hidden flex flex-col h-screen bg-[#000000] dark:bg-[#000000]'>
       <Header />
       <main className={`flex flex-col justify-center h-screen`}>
 
