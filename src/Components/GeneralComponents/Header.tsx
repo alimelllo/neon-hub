@@ -8,7 +8,7 @@ const Header = () => {
 
     return (
         <header className='w-full h-[5rem] md:py-2 z-30 bg-[black] flex flex-row items-center'>
-            <div className='w-full  h-[80%] flex flex-row justify-between'>
+            <div className='w-full h-[80%] flex z-40 flex-row justify-between'>
 
                 <div className='w-4/12 flex'>
                     <div className='flex items-center w-5/12 md:w-full'>
@@ -17,10 +17,10 @@ const Header = () => {
                 </div>
 
 
-                <div className='w-4/12 font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
-                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>دسته</button>
-                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
-                    <button className='text-[gray] h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
+                <div className='w-4/12 text-[gray] font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
+                    <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>دسته</button>
+                    <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
+                    <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
                 </div>
 
 
