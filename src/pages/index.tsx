@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className='overflow-x-hidden flex flex-col h-screen bg-[#000000] dark:bg-[#000000]'>
-      {/* <Header /> */}
+      <Header />
       <main className={`flex flex-col justify-center h-screen`}>
 
         {/* ================== */}
