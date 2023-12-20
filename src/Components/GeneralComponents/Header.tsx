@@ -12,12 +12,12 @@ const Header = () => {
 
                 <div className='w-4/12 flex'>
                     <div className='flex items-center w-5/12 md:w-full'>
-                        <Image width={500} height={200} alt={'Neon Hub'} src={logo} />
+                        <Image alt={'Neon Hub'} src={logo} />
                     </div>
                 </div>
 
 
-                <div className='w-4/12 text-[gray] font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
+                <div id='navbar' className='w-4/12 text-[gray] font-[Vazir] text-[1.25rem] flex flex-row md:hidden items-center justify-center '>
                     <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>دسته</button>
                     <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>محصولات</button>
                     <button className='h-[70%] w-3/12 hover:text-[#ffffff] transition-all duration-200'>درباره ما</button>
