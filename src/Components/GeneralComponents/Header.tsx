@@ -10,7 +10,7 @@ const Header = () => {
         <header style={{ height: '5rem' }} className='w-full md:py-2 z-30 flex flex-row items-center'>
             <div style={{ height: '80%' }} className='w-full flex z-40 flex-row justify-between'>
                 <div style={{ width: '33%' }} className='w-4/12 flex'>
-                    <div className='flex items-center w-5/12 md:w-full'>
+                    <div style={{ width: '40%' }} className='flex items-center md:w-full'>
                         <Image alt={'Neon Hub'} src={logo} />
                     </div>
                 </div>
