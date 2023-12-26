@@ -26,11 +26,11 @@ const Header = () => {
                 <div style={{ width: '33%', color: 'gray' , justifyContent : 'end'}} className='text-white font-[Vazir] text-[1.25rem] md:text-[1rem] flex flex-row items-center pr-5 '>
                     <div style={{
                         background: 'rgb(224, 84, 108)',
-                        backgroundImage: 'linear-gradient(90deg, rgba(224, 84, 108, 1) - 8 %, rgba(72, 27, 167, 1) 100 %)',
+                        backgroundImage: 'linear-gradient(90deg,rgba(224, 84, 108, 1)-8%,rgba(72, 27, 167, 1)100%)',
                         height:'80%',
                         width:'33%'
                     }} className=' flex items-center md:w-full rounded-[5px] hover:text-[#ffffff] '>
-                        <button className='text-center bg-black hover:bg-transparent transition-all duration-200 w-[95%] h-[90%] mx-auto text-[#f1c2ca] hover:text-white'>ثبت نام / ورود</button>
+                        <button style={{background:'black' , height :'90%' , width:'95%' , textAlign : 'center'}} className='bg-black hover:bg-transparent transition-all duration-200 mx-auto text-[#f1c2ca] hover:text-white'>ثبت نام / ورود</button>
                     </div>
                 </div>
 
