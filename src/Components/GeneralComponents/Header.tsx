@@ -7,7 +7,7 @@ const Header = () => {
    
 
     return (
-        <div className='w-full h-[5rem] md:py-2 z-30 bg-[#56e1f0] flex flex-row items-center'>
+        <header className='w-full h-[5rem] md:py-2 z-30 bg-[#56e1f0] flex flex-row items-center'>
             <div className='w-full h-[80%] flex z-40 flex-row justify-between'>
 
                 <div className='w-4/12 flex bg-[blue]'>
@@ -31,7 +31,7 @@ const Header = () => {
                 </div>
 
             </div>
-        </div>
+        </header>
     )
 }
 
